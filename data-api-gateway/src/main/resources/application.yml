@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: data-gateway
+
+management:
+  endpoints:
+    web:
+      base-path: /${spring.application.name}
+
+binance-api-gateway:
+  base-url: https://api.binance.com/api
+  path: /v3/ticker/bookTicker
+
+houbi-api-gateway:
+  base-url: https://api.huobi.pro
+  path: /market/tickers
+

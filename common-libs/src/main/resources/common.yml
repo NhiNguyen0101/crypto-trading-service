@@ -1,0 +1,12 @@
+# Properties defined here apply to all microservices
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /${spring.application.name:noname-app}/docs
+  swagger-ui:
+    disable-swagger-default-url: true
+    path: /${spring.application.name:noname-app}/swagger-ui
+
+api:
+  version: v1
