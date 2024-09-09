@@ -3,3 +3,6 @@
 /.idea
 /.idea/
 /target/
+/common-libs/common-libs.iml
+/crypto-service/crypto-trading-microservices.iml
+/data-api-gateway/data-api-gateway.iml
